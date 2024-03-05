@@ -9,14 +9,14 @@ leap_year:
     ; first, are we divisible by 100
     mov rdx, rdi
     mov rsi, 100
-    div rsi
+    idiv rsi
     ; checking remainder
     cmp rdx, 0
     jne byf
 
     mov rdx, rdi
     mov rsi, 400
-    div rsi
+    idiv rsi
     cmp rdx, 0
     jne not_leap
     jmp leap
@@ -25,7 +25,7 @@ leap_year:
     byf:
     mov rdx, rdi
     mov rsi, 4
-    div rsi
+    idiv rsi
     cmp rdx, 0
     jne not_leap
     jmp leap
