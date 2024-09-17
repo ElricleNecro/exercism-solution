@@ -1,3 +1,4 @@
 .exercism
 **/tests.out
 **/memcheck.out
+cpp/*/build
