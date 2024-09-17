@@ -8,3 +8,5 @@ haskell/*/.stack-work
 haskell/*/stack.yaml.lock
 haskell/*/hello-world.cabal
 python/*/__pycache__
+*/.envrc
+*/.tool-versions
