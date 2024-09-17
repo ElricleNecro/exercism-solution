@@ -10,3 +10,4 @@ haskell/*/hello-world.cabal
 python/*/__pycache__
 */.envrc
 */.tool-versions
+clojure/*/.cpcache
