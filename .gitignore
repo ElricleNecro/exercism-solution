@@ -1,4 +1,5 @@
 .exercism
+.ropeproject
 **/tests.out
 **/memcheck.out
 cpp/*/build
@@ -6,3 +7,4 @@ ocaml/*/_build
 haskell/*/.stack-work
 haskell/*/stack.yaml.lock
 haskell/*/hello-world.cabal
+python/*/__pycache__
