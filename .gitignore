@@ -6,7 +6,7 @@ cpp/*/build
 ocaml/*/_build
 haskell/*/.stack-work
 haskell/*/stack.yaml.lock
-haskell/*/hello-world.cabal
+haskell/*/*.cabal
 python/*/__pycache__
 */.envrc
 */.tool-versions
